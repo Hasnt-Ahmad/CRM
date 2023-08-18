@@ -1,0 +1,73 @@
+.side-bar{
+    background-color:transparent;
+    margin-top: 20px !important;
+    border-right: 1px solid rgb(233, 233, 233);
+    height: 100vh;
+}
+.side-bar ul li{
+    list-style: none;
+}
+.side-bar ul li i{
+    color: black ;
+    font-size: 22px !important;
+}
+.side-bar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.active{
+    background-color: #2a9df4;
+    border-radius: 10px;
+    height: 50px;
+    padding: 5px;
+    width: 62%;
+}
+.active a,.active i{
+    color: white !important;
+}
+.profile-section{
+    display: flex;
+}    
+.profile-section h4{
+    padding: 18px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.dash-section{
+    padding: 20px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 120px;
+    border-radius: 15px;
+}
+.dash-section h5{
+    font-weight: 600;
+}
+.dash-section p{
+    color: #2a9df4;
+    font-weight: 700;
+}
+.mobile-ul{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-ul{
+        display: block;
+    }
+    .active{
+        width: 50px;
+    }
+    .desktop-ui{
+        display: none;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .form{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .col-9{
+        padding: 0px !important;
+    }
+  }

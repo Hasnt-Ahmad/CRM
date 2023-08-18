@@ -1,0 +1,76 @@
+.contacts-table{
+    padding: 20px;
+    width: 70%;
+}
+.contacts-table td{
+    padding: 20px;
+    width: 30%;
+}
+.table-heading{
+    color: rgb(147, 147, 147);
+    font-weight: 600;
+}
+.contact-profile{
+    display: flex;
+}
+.btn-edit{
+    background-color: #53BDA5;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+}
+.btn-delete{
+    background-color: #cd4f4f;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+}
+.btn-add{
+    background-color: blueviolet;;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+}
+.btn-export{
+    background-color: rgb(23, 164, 23);
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 280px;
+}
+
+.search-icon {
+    padding: 4px;
+    color: #888;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 6px;
+    font-size: 16px;
+}
+.container{
+    max-width: 100% !important;
+}
